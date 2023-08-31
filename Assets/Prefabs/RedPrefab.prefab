@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8714542647612583426}
   - component: {fileID: 50549348055931843}
   m_Layer: 0
-  m_Name: Red Sphere
+  m_Name: RedPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

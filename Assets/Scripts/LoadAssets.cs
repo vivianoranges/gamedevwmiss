@@ -6,6 +6,9 @@ public class LoadAssets : MonoBehaviour
 {
 
     public GameObject redObj; 
+
+    [SerializeField]
+    private GameObject blueObj;
         
 
     // Start is called before the first frame update
@@ -18,5 +21,5 @@ public class LoadAssets : MonoBehaviour
     void Update()
     {
         
-    }
+    }x`
 }
