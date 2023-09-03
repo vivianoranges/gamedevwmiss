@@ -4,8 +4,10 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - redObj: {instanceID: 0}
-  - blueObj: {instanceID: 0}
+  - redObj: {fileID: 8714011183852204201, guid: 90b81dcd5074d0045b49c68cf3a9bfc8,
+      type: 3}
+  - blueObj: {fileID: 8714011183852204201, guid: 90b81dcd5074d0045b49c68cf3a9bfc8,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
