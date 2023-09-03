@@ -11,7 +11,12 @@ public class PrintAndHide : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        i = 3; 
+        i = 3;
+        
+        if (gameObject.CompareTag("Blue"))
+        {
+            Random.Range(150, 251); 
+        }
     }
 
     // Update is called once per frame
@@ -19,5 +24,16 @@ public class PrintAndHide : MonoBehaviour
     {
         i++;
         Debug.Log(gameObject.name + ":" + i);
+
+        if (gameObject.CompareTag("Red") && i == 100)
+        {
+            gameObject.SetActive(false);
+        }
+
+        if (gameObject.CompareTag("Blue") && i >= 150 && i <= 250)
+        {
+            gameObject.GetComponent<Renderer>().enabled = false;
+        }
+
     }
 }
